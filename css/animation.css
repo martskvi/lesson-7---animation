@@ -1,0 +1,7 @@
+@keyframes myfirst {
+  0%   {background-image: url(../img/06.jpg); background-size: contain; /*width: 800px; height: 500px;*/ /*background-position: center;*/ }
+  25%  {background-image: url(../img/05.jpg); background-size: contain; /*width: 800px; height: 500px;*/ /*background-position: center;*/ }
+  50%  {background-image: url(../img/12.jpg); background-size: contain; /*width: 800px; height: 500px;*/ /*background-position: center;*/ }
+  75%  {background-image: url(../img/18.jpg); background-size: contain; /*width: 800px; height: 500px;*/ /*background-position: center;*/ }
+  100% {background-image: url(../img/00.jpg); background-size: contain; /*width: 800px; height: 500px; *//*background-position: center;*/ }
+}

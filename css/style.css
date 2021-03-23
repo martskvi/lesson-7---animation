@@ -1,5 +1,5 @@
 body {
-	background-color: #F8F8F8;
+	background-color: lightblue;
 }
 .div1 {
 	background-image: url(../img/06.jpg);
@@ -10,22 +10,20 @@ body {
 	background-repeat: no-repeat;
 	top: 100px;
 	left: 100px;
-	/*animation: myfirst 15s 2;*/
+	animation: myfirst 15s infinite;
 }
-
+.img2 {
+	height: 70px;
+}
 .div2 {
 	position: relative;
 	top: 100px;
 	left: 100px;
 	z-index: 10;
 	display: inline;
-	
+	opacity: 0.2;
+}
+.div2:hover {
+	opacity: 1;
 }
 
-/*@keyframes myfirst {
-  0%   {background-image: url(../img/06.jpg); width: 800px; height: 500px; background-position: center; }
-  25%  {background-image: url(../img/12.jpg); width: 800px; height: 500px; background-position: center; }
-  50%  {background-image: url(../img/06.jpg); width: 800px; height: 500px; background-position: center; }
-  75%  {background-image: url(../img/12.jpg); width: 800px; height: 500px; background-position: center; }
-  100% {background-image: url(../img/06.jpg); width: 800px; height: 500px; background-position: center; }
-}*/
